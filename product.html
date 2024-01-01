@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!-- Tailwind Css CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="bg-green-400 p-5 flex items-center justify-between shadow-2xl sticky top-0">
+        <h1 class="font-medium text-3xl">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+
+        <ul class="flex gap-8 text-gray-100 hidden md:flex">
+            <li>
+                <a href="index.html" class="hover:underline hover:text-black font-bold">Home</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline hover:text-black font-bold">Products</a>
+            </li>
+            <li>
+                <a href="contact.html" class="hover:underline hover:text-black font-bold">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Product Section -->
+    <section class="text-center">
+        <p class="font-bold text-3xl m-5">Our Products</p>
+        <input type="text" class="border border-black p-2" style="width: 80%;" placeholder="Search for a Product">
+        <div class="grid grid-cols-2 grid-rows-4 md:grid-cols-4 md:grid-rows-2 gap-5 mt-10">
+            <div>
+                <img src="./images/Best_1.png" alt="" class="inline">
+                <p>Rose Plant</p>
+                <p>30$</p>
+            </div>
+            <div>
+                <img src="./images/Best_2.png" alt="" class="inline">
+                <p>Lily Plant</p>
+                <p>30$</p>
+            </div>
+            <div>
+                <img src="./images/Best_3.png" alt="" class="inline">
+                <p>Green Plant</p>
+                <p>30$</p>
+            </div>
+            <div>
+                <img src="./images/Best_4.png" alt="" class="inline">
+                <p>Cactus Plant</p>
+                <p>30$</p>
+            </div>
+            <div>
+                <img src="./images/Best_4.png" alt="" class="inline">
+                <p>Cactus Plant Plant</p>
+                <p>30$</p>
+            </div>
+            <div>
+                <img src="./images/Best_3.png" alt="" class="inline">
+                <p>Green Plant</p>
+                <p>30$</p>
+            </div>
+            <div>
+                <img src="./images/Best_2.png" alt="" class="inline">
+                <p>Lily Plant</p>
+                <p>30$</p>
+            </div>
+            <div>
+                <img src="./images/Best_1.png" alt="" class="inline">
+                <p>Rose Plant</p>
+                <p>30$</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-green-400 p-10 mt-5 flex flex-col gap-5">
+        <p class="text-3xl font-bold">Greenden</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fugiat officia, inventore quasi rem ip!</p>
+        <p>&copy; 2023 Greenden.com</p>
+
+    </footer>
+</body>
+
+</html>
